@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active{
+    background-color: #ff0059;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.nav-link:hover{
+    color:#fff !important;
+    border-radius: 5px;
+    background-color: #ff0059;
+}
+
+.jumbotron{
+    background-image:url("pics/bg_header.jpg");
+    background-repeat:none;
+    background-size:cover;
+    height:500px;
+}
+
+
+.jumbo-text h1{
+    color:#fff;
+    position:absolute;
+    top:220px;
+    left:70px;
+}
+
+.jumbo-text p{
+    color:#fff;
+    position: absolute;
+    top:280px;
+    left:70px;
+    font-size:20px;
+}
+
+.jumbo-text p{
+    color:#fff;
+    position: absolute;
+    top:280px;
+    left:70px;
+    font-size:20px;
+}
+
+.pbtn{
+    color:#fff;
+    position: absolute;
+    top:350px;
+    left:70px;
+    font-size:20px;
+    width:240px;
+    height:70px;
+    font-size:15px;
+    border-radius:7px;
+    padding-top:20px;   
+}
+
+.moreBtn:hover,.moreBtn:active{
+    color:#fff !important;
+    background-color:#ff0059;
+    transition: 2s;
+    border:none;
+} 
+
+.courses a > i {
+    padding-right: 13px;
+}
+
+.courses li{
+    border-left:0;
+    border-right: 0;
+    padding-left:0px;
+}
+.courses li a{
+    text-decoration: none;
+    color:#ff0059;
+    
+}
+
+.courses a:hover{
+    text-decoration: underline;
+}
+
+/* Portals */
+
+.portals a > i {
+    padding-left: 20px;
+}
+
+.portals li{
+   margin-top:10px;
+}
+.portals li a{
+    text-decoration: none;
+    color:#ff0059;
+    
+}
+
+.portals a:hover{
+    text-decoration: underline;
+}
+
+.card-date{
+    background:#ff0059 !important;
+}
+
+.card-text{
+    text-align:justify; letter-spacing:2px;
+    color:#000;
+}
+
+
+.foter{
+    background:#ff0059;
+}
